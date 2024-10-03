@@ -45,7 +45,6 @@ function render(variables = {}) {
     </div>
   `;
 
-  // Generar el HTML dinámico con las variables del usuario
   document.querySelector("#widget_content").innerHTML = `
     <div class="widget">
       ${cover}
